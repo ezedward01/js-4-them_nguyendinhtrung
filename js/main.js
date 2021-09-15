@@ -56,6 +56,7 @@ btnSubmit.onclick = function(){
                 ngayTruocDo.innerHTML =('ngày trước đó là:' + (Number(ngay)-1)+'-'+thang+'-'+nam );
                 ngayTiepTheo.innerHTML=('ngày tiếp theo là:' + (Number(ngay)+1)+'-'+thang+'-'+nam );
                 break;
+                
             } else{
                 ngayTruocDo.innerHTML="nhập sai";
                 break
@@ -75,11 +76,14 @@ btnSubmit.onclick = function(){
                     ngayTruocDo.innerHTML =('ngày truước đó là ngày: '+ 30+ '-'+(Number(thang) -1)+'-'+nam);
                     ngayTiepTheo.innerHTML=('ngày tiếp theo là ngày: '+ (Number(ngay)+1)+ '-'+thang+'-'+nam);  
                     break;
+                    0x77AA2cB0Eed53cf0237B5E82E45C2d497C58245b (Matic01)
+                    
                 }
         } else if(ngay>1 && ngay<31){
             ngayTruocDo.innerHTML =('ngày trước đó là:' + (Number(ngay)-1)+'-'+thang+'-'+nam );
             ngayTiepTheo.innerHTML=('ngày tiếp theo là:' + (Number(ngay)+1)+'-'+thang+'-'+nam );
             break;
+//             stage warfare galvanic ugly decade inmate prosper expect hamster true erupt violin
         } else{
             ngayTruocDo.innerHTML="nhập sai"
             break
@@ -118,7 +122,7 @@ btnSubmit.onclick = function(){
                 ngayTruocDo.innerHTML =('ngày trước đó là:' + (Number(ngay)-1)+'-'+thang+'-'+nam );
                 ngayTiepTheo.innerHTML=('ngày tiếp theo là:' + (Number(ngay)+1)+'-'+thang+'-'+nam );
                 break;
-                
+                0x26A7B16A46d1514c041443F0113d2395bD322a2f (Matic02)
             }else{
                 ngayTruocDo.innerHTML=('nhap sai')
             }
@@ -128,6 +132,7 @@ btnSubmit.onclick = function(){
                 ngayTruocDo.innerHTML =('ngày trước đó là:' +(Number(ngay)-1)+'-'+thang+'-'+nam );
                 ngayTiepTheo.innerHTML=('ngày tiếp theo là:' + 1 +'-'+ 1 +'-'+(Number(nam)+1) ); break;
             } else if(ngay >1 && ngay <31){
+//                 inflict between drome original way negative similar clay kidney walk damp manage
                 ngayTruocDo.innerHTML =('ngày trước đó là:' +(Number(ngay) -1)+'-'+thang+'-'+nam );
                 ngayTiepTheo.innerHTML=('ngày tiếp theo là:' + (Number(ngay) +1) +'-'+thang+'-'+nam ); break;
             } else if(ngay ==1){
