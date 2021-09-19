@@ -52,6 +52,7 @@ btnSubmit.onclick = function(){
                 ngayTruocDo.innerHTML =('ngày truước đó là ngày: '+ 30+ '-'+1+'-'+nam);
                 ngayTiepTheo.innerHTML=('ngày tiếp theo là ngày: '+ 1+ '-'+(Number(thang) +1)+'-'+nam)
                 break;
+                
             } else if(ngay>1 && ngay<31) {
                 ngayTruocDo.innerHTML =('ngày trước đó là:' + (Number(ngay)-1)+'-'+thang+'-'+nam );
                 ngayTiepTheo.innerHTML=('ngày tiếp theo là:' + (Number(ngay)+1)+'-'+thang+'-'+nam );
@@ -60,6 +61,7 @@ btnSubmit.onclick = function(){
             } else{
                 ngayTruocDo.innerHTML="nhập sai";
                 break
+                cable toy honest potato oil wheat concert damp forum bat wine benefit (near)
             }
             break;
          case 3 : case 5 : case 7 : case 8 : case 10 :   
